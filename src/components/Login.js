@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import "../App.css";
 
@@ -11,7 +11,9 @@ const Login = (props) => {
   return (
 
     <section className="login">
+   
     <div className="loginContainer">
+    
       <label>Email</label>
       <input
         type="text"
